@@ -1,0 +1,2507 @@
+
+
+
+/* =======================================================================================
+ *INICIO CSS USO GENERAL
+ * =======================================================================================*/
+
+/*** Color de fondo del body (azul oscuro) ***/	
+body{
+	background-color:#283645;
+	/*color: #000000;*/
+	/*font-size: 14px;*/
+}
+
+div.row.menu-superior{
+	background-color: #ffffff;
+	color: #575C5F;
+}
+thead tr{
+	background-color: #27A9E1;
+
+}
+
+td a { 
+   display: block; 
+  
+}
+table tr td {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#mensaje-presentacion{
+	background-color: #5CB85C;
+	color: #000000;
+	font-family: Verdana;
+	
+	height: 100%;
+	padding-bottom: 5px;
+}
+
+
+
+#secciones-presentacion{
+	font-family: Verdana;
+}
+
+.badge{
+	background-color: red;
+}
+
+.boton-cancelar{
+	margin-top: 20px;
+}
+
+
+.btn-categorias{
+	background-color: #27A9E1;
+	color: #000000;
+	border-radius: 20px;
+	font-size: 1em;
+}
+	.btn-categorias:hover{
+		background-color: #5CB85C;
+		
+		font-size: 1em;
+	}
+
+.btn-manifiesto{
+	background-color: #ffffff;
+	border-radius: 20px;
+	color: #000000;
+	font-size: 1em;
+	font-weight: bold;
+
+	-webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+	.btn-manifiesto:hover{
+		background-color: #27A9E1;
+		color: #ffffff;
+		-webkit-transition: all 0.7s;
+	    -moz-transition: all 0.7s;
+	    -o-transition: all 0.7s;
+	    transition: all 0.7s;
+	}
+
+.centrar{
+   	text-align: center;
+}
+
+.centrar-div{
+	text-align: center;
+}
+
+/* Color de fondo del contenedor-blanco- */
+/* Tamanho minimo del contenedor*/
+.contenido-login{
+	background-color:#ffffff;
+	margin-top:115px;
+	min-height: 600px;
+}
+.contenido-nologin{
+	background-color:#ffffff;
+	margin-top:96px !important;
+	min-height: 600px;
+}
+
+.contenedor-interno{
+	margin-top: 50px;
+	margin-bottom: 90px;
+	/*border: solid 1px red;*/
+}
+
+.contenedor-interno-ingresoregistro{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.contenedor-logo{
+	margin-bottom: -15px;
+}
+
+.contenedor-buscados{
+	background-color: #F0F8EE;
+	color: #0E5F8C;
+	padding: 5px;
+	margin-top: 10px;
+	
+	/*para Firefox*/
+	-moz-border-radius: 10px 10px 10px 10px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 10px 10px 10px 10px;
+	/* para Opera */
+	border-radius: 10px 10px 10px 10px;
+}
+
+.enlace{
+	font-size: 1.1em;
+	color: #5CB85C;	
+}
+	.enlace:hover{
+		text-decoration:none;   
+		color: green;	
+	}
+
+
+/*.file-preview-frame{
+	/*display: block !important;*/
+
+
+.file-thumbnail-footer .file-caption-name{
+	display: none;
+}
+
+.enlacessubcategorias{
+	font-size: .9em;
+}
+
+.enlace-categoria a{
+	color: green;
+}
+
+.espacio-inferior-20{
+	margin-bottom: 20px;
+}
+
+.espacio-inferior-mediano{
+	margin-bottom: 40px;
+}
+.espacio-inferior-peq{
+	margin-bottom: 10px;
+	
+}
+
+.espacio-inferior-grande{
+	margin-bottom: 50px;
+	
+}
+.espacio-izquierda{
+	margin-left: 20px;
+}
+.espacio-superior-min{
+	margin-top: 3px;
+}
+.espacio-superior-peq{
+	margin-top: 10px;
+}
+
+.espacio-superior-mediano{
+	margin-top: 30px;
+}
+
+.font-white{
+	color: #ffffff;
+}
+
+.icono-presentacion{
+	font-size: 3em;
+	color: #0E5F8C;
+
+}
+
+.icono-grande{
+	font-size: 3.5em;
+	color: #51AF33;
+}
+
+.logo{
+	height: 50px;
+	width: 45px;
+	/*margin-bottom: -20px;*/
+}
+
+
+
+.modal-dialog {
+	margin: 10em auto;
+	/*border: solid 4px black;*/
+	
+}
+
+.modal-footer-app {
+	padding-bottom: 5px;
+	margin-top: -5px;
+}
+
+.modal-header-facebook {
+    color:#fff;
+    padding:5px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #47639E;
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+.btn-modal-facebook{
+	color:#fff;
+	background-color: #47639E;
+}
+
+.modal-header-google {
+    color:#fff;
+    padding:5px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #dd4b39;
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.btn-modal-google{
+	color:#fff;
+	background-color: #dd4b39;
+}
+
+
+
+.modal-header-twitter {
+    color:#fff;
+    padding:5px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #00aced;
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.btn-modal-twitter{
+	color:#fff;
+	background-color: #00aced;
+}
+
+
+
+.modal-header-app {
+    color:#fff;
+    padding:5px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #27A9E1;
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+.modal-header-success {
+    color:#fff;
+    padding:5px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5cb85c;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+.seccion-presentacion{
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-color: #F0F8EE;
+	border-left: 1px solid #27A9E1;
+}
+
+	.seccion-presentacion h4{
+		font-size: 1em;
+		font-weight: bold;
+		color: #4CAE4C;
+	}
+
+	.seccion-presentacion:hover{
+		
+		background-color: #E0FFFF;
+		-webkit-transition: all 0.7s;
+	    -moz-transition: all 0.7s;
+		-o-transition: all 0.7s;
+		transition: all 0.7s;
+
+	}
+
+.subtitulo{
+	font-size: 1.5em;
+	padding-top: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.subtitulo-aviso{
+	font-size: 1.2em;
+	padding-top: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.subtitulo-izquierda{
+	font-size: 1.5em;
+	padding-top: 10px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.texto-negrita{
+	font-weight: bold;
+}
+
+.texto-azul{
+	color:#27A9E1;
+}
+.texto-blanco{
+	color:#ffffff;
+}
+.texto-negro{
+	color:#000000;
+}
+.texto-rojo{
+	color:#FF0000;
+}
+.titulo-clausula{
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 1.4em;
+	margin-bottom: 1.2em;
+}
+
+.subtitulo-ingresoregistro{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.subtitulo-presentacion{
+	font-size: 1.4em;
+	padding-top: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+/*** Informacion de presentación ***/
+/*.texto-informativo{
+	font-size: 1.1em;
+	color: #000000;
+	font-family: cursive, sans-serif;
+	margin-bottom: 50px;
+}*/
+
+.texto-justificado{
+	text-align: justify;
+}
+
+.texto-logo{
+	font-family: 'Audiowide', cursive;
+	font-size: 1.3em;
+	color: #27A9E1;
+	margin-top: 5px;
+	display: inline-block;
+	text-decoration: none;
+
+
+}
+
+.texto-logo:hover{
+	text-decoration: none;
+}
+
+.texto-presentacion{
+	
+	font-size: 1.2em;
+	/*padding-top: 0px;*/
+	margin-bottom: 10px;
+	color: #000000;
+}
+
+/*** Presentación main ***/
+/*.titulo-presentacion{
+	margin-top: 20px;
+	font-family: 'Audiowide', cursive;
+	font-size: 2.5em;
+	color: #000000;
+}*/
+
+/* ========================================================================================
+ *FIN CSS USO GENERAL
+ * ========================================================================================*/
+
+
+
+
+
+/* =======================================================================================
+ *INICIO CSS MENÚ NAV
+ * =======================================================================================*/
+
+div.row.menu-inferior{
+	margin-top: -5px;
+}
+
+
+/*Color de los enlaces del menu -blanco-*/
+#main-menu a {
+	color: #ffffff;
+	font-size: 0.9em;
+}
+	 /*** 
+	 * Color del borde inferior para los enlaces del menu -verde claro-
+	 * Color de los enlaces del menu con hover -verde claro-
+	 ***/
+	#main-menu a:hover {
+	    border-bottom: solid 2px #94d117;
+	    color: 	#94d117;
+	    -webkit-transition: all 0.7s;
+	    -moz-transition: all 0.7s;
+	    -o-transition: all 0.7s;
+	    transition: all 0.7s;
+	}
+	
+	/***Quitar el background a los enlaces del menu***/
+	#main-menu>li.active>a,  
+	    #main-menu>li.active>a:hover,
+	    #main-menu>li.active>a:focus, 
+	    #main-menu>li>a:hover {
+	        background: none;
+	        cursor:pointer;
+	}
+
+	/***Fuente verde enlaces activos***/
+	#main-menu>li.active>a{
+	    color: 	#94d117;
+	}
+	/*** Backgroud del enlace que tiene el foco y asignar color al enlace -verde- ***/
+	#main-menu>li>a:focus{
+		background: none;
+		color: #94d117;
+	}
+
+.boton-menu-crear{
+	color: #ffffff;
+	background-color: #5CB85C;
+	/*background-color: red;*/
+	margin-top: 2px !important;
+	padding-bottom: 2px !important;
+	padding-top: 5px !important;
+}
+	
+	.boton-menu-crear:hover{
+		background-color: #F4A460 !important;
+		color: #ffffff;
+		font-weight: bold;
+		-webkit-transition: all 0.7s;
+	    -moz-transition: all 0.7s;
+	    -o-transition: all 0.7s;
+	    transition: all 0.7s;
+	}
+
+.boton-menu-ingreso,
+	.boton-menu-registro{
+		font-size: 0.9em;
+		height: 30px;
+
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+}
+
+.boton-menu-ingreso{
+	color: #ffffff;
+	background-color: #BCD88F;
+}
+
+.boton-menu-registro{
+	color: #27A9E1;
+	margin-right: 10px;
+	border: 1px #27A9E1 solid;
+}
+
+	.boton-menu-ingreso:hover, 
+		.boton-menu-registro:hover{
+			background-color: #27A9E1 !important;
+			color: #BCD88F;
+			font-weight: bold;
+			-webkit-transition: all 0.7s;
+	    	-moz-transition: all 0.7s;
+	    	-o-transition: all 0.7s;
+	    	transition: all 0.7s;
+	}
+/*** Color de fondo del submenu del boton desplegable, después de ingresar al sistema -azul claro- ***/	
+.dropdown-menu{
+	background-color: #27A9E1 ;
+}
+
+/*** Color de fondo de los enlaces del submenu, después de ingresar al sistema -azul claro usado en submenu- ***/
+	.dropdown-menu>li.active>a, 
+		.dropdown-menu>li.active>a:hover, 
+		.dropdown-menu>li.active>a:focus,
+		.dropdown-menu>li>a:visited, 
+		.dropdown-menu>li>a:focus, 
+		.dropdown-menu>li>a:hover {
+	        background: #5391a7;
+	}
+
+/* Color del icono menu desplegable (blanco)*/
+.icon-bar{
+	background: #ffffff;
+}
+
+/*** Quitar fondo del boton desplegable dentro del menu ***/
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+	background:none;
+}
+
+/*color del fondo y tamaño de la fuente del menu (azul)*/	
+.navbar{
+	background-color: #27A9E1;
+	font-size: 1em;
+	border-bottom: none;
+}
+
+/* =======================================================================================
+*FIN CSS MENÚ NAV
+* =======================================================================================*/
+
+/* ========================================================================================
+ *INICIO VER CATEGORIAS Y SUBCATEGORIAS
+ * ========================================================================================*/
+
+/*tamaño del icono*/
+.glyphicon-lg{
+	font-size:4.2em;
+}
+/*contenedor categorias y subcategorias*/
+.blockquote-box{
+	border-right:5px solid #E6E6E6;
+	margin-bottom:25px;
+	
+}
+
+/*contenedor de icono de categorias*/
+.blockquote-box .square{
+	width:130px;
+	height: 140px;
+	min-height:100px;
+	margin-right:20px;
+	text-align:center!important;
+	background-color:#E6E6E6;
+	padding:20px 0;
+	
+}
+
+/*color barra derecha catgeorias*/
+.blockquote-box.blockquote-info{
+	border-color:#46B8DA;
+}
+/*css para el color (blanco) de fuente de iconos en categorias de secciones */
+.blockquote-box.blockquote-info .square{
+	background-color:#5BC0DE;
+	color:#FFF;
+}
+
+
+
+
+
+/* ========================================================================================
+ *FIN VER CATEGORIAS Y SUBCATEGORIAS
+ * ========================================================================================*/
+
+
+
+/* =======================================================================================
+ *INICIO CSS FOOTER
+ * =======================================================================================*/
+
+/*** Altura total del footer en px con valor negativo margin-top: -40px; ***/
+/*** Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior ***/
+footer {
+	position: relative;
+  	height: 30px; 
+  	margin-top: 0px;
+
+  	font-size: 0.8em;
+  	clear: both;
+  	opacity: 0.9;
+  	background: #27A9E1;
+  	text-align: center;
+  	color: #ffffff;
+}
+
+	footer > p{
+		/*padding: 5px;*/
+	}
+
+
+
+.btn-inferior-der, 
+	.btn-inferior-izq{
+		height: 40px;
+		text-align: center;
+		color: #ffffff;
+		padding-top: 10px;
+}
+
+.btn-inferior-der{
+	background: #106A9C;
+}
+
+.btn-inferior-social{
+	background: #51AF33;
+	height: 35px;
+	text-align: center;
+	color: #000000;
+	padding-top: 10px;
+}
+
+
+.btn-inferior-izq{
+	background: #106A9C;
+	opacity: 0.9;
+}
+
+.botonera-inferior{
+	position: relative;
+	background: #000000;
+}
+	.botonera-inferior a:hover .btn-inferior-izq, 
+		.botonera-inferior a:hover .btn-inferior-der{
+		background-color: #27A9E1;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-transition: all 0.7s;
+		-moz-transition: all 0.7s;
+		-o-transition: all 0.7s;
+		transition: all 0.7s;
+	}
+
+ /* =======================================================================================
+ *FIN CSS FOOTER
+ * =======================================================================================*/
+
+
+/* =======================================================================================
+ *INICIO LOGIN Y REGISTRO CSS FOOTER
+ * =======================================================================================*/
+/* Ancho de los botones sociales*/
+.ancho-btn-social{
+    width:90%;
+    margin-bottom: 3px;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+/*Boton conectate con facebook*/
+/*Color de fondo del boton conectate con facebook -azul de facebook-*/
+.btn-facebook{
+    
+	background-color: #3B5998;	
+    
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+	.btn-facebook:hover{
+    	background-color: #ffffff;
+    	color: #3B5998;
+    	border: #3B5998 solid 1px;
+    	-webkit-transition: all 0.4s;
+    	-moz-transition: all 0.4s;
+    	-o-transition: all 0.4s;
+    	transition: all 0.4s;
+	}
+
+.btn-fanpage-facebook{
+    background-color: #3B5998;
+    color: #ffffff;
+    	border: #3B5998 solid 1px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+	.btn-fanpage-facebook:hover{
+    	background-color: #ffffff;	
+    	color: #3B5998;
+    	-webkit-transition: all 0.4s;
+    	-moz-transition: all 0.4s;
+    	-o-transition: all 0.4s;
+    	transition: all 0.4s;
+	}
+
+
+/*Boton conectate con google plus*/
+/*Color de fondo del boton conectate con google+ -rojo de googleplus-*/
+.btn-googleplus{
+    background-color: #dd4b39;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}	
+	.btn-googleplus:hover{
+    	background-color: #ffffff;
+    	color: #dd4b39;
+    	border: #dd4b39 solid 1px;
+    	-webkit-transition: all 0.4s;
+    	-moz-transition: all 0.4s;
+    	-o-transition: all 0.4s;
+    	transition: all 0.4s;
+	}
+
+/*Boton conectate con twitter*/	
+/*Color de fondo del boton conectate con twitter -celeste de twitter-*/
+.btn-twitter{
+    background-color: #00aced;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+	.btn-twitter:hover{
+    	background-color: #ffffff;
+    	color: #00aced;
+    	border: #00aced solid 1px;
+    	-webkit-transition: all 0.4s;
+    	-moz-transition: all 0.4s;
+    	-o-transition: all 0.4s;
+    	transition: all 0.4s;
+	}
+
+.btn-fanpage-twitter{
+	background-color: #00aced;
+    	color: #ffffff;
+    	border: #00aced solid 1px;
+    
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+	.btn-fanpage-twitter:hover{
+    	background-color: #ffffff;
+    	color: #00aced;
+    	-webkit-transition: all 0.4s;
+    	-moz-transition: all 0.4s;
+    	-o-transition: all 0.4s;
+    	transition: all 0.4s;
+	}
+
+
+
+
+
+.boton-espacio{
+	margin-bottom: 25px;
+}
+
+/*Icono de las redes sociales se ubique a la izquierda*/
+.icono-btn-social{ 
+    float:left;
+    font-size:1.4em;
+}
+
+.titulo-ingresoregistro{
+	
+	font-size: 2em;
+	/*margin-top: 40px;*/
+	text-align: center;
+}
+/* =======================================================================================
+ *FIN LOGIN Y REGISTRO
+ * =======================================================================================*/
+
+
+/* =======================================================================================
+ *INICIO CSS ERRORES
+ * =======================================================================================*/
+input.valid {
+    background: url(../images/icon-ok.png) no-repeat right center #e3ffe5;
+    color: #002f00;
+    border-color: #96b796 !important;
+}
+input.error {
+    background: url(../images/icon-fail.png) no-repeat right center #ffebef;
+    color: #480000;
+}
+.form-suggest-element {
+    padding: 4px;
+}
+.form-error{
+	font-size: .9em;
+}
+/* =======================================================================================
+ * FIN CSS ERRORES
+ * =======================================================================================*/
+
+
+
+/* =======================================================================================
+ *INICIO CSS MENSAJES Y NOTIFICACIONES
+ * =======================================================================================*/
+
+.mensaje-noleido, .mensaje-leido{
+	border-bottom: solid 1px #27A9E1;
+}
+
+.mensaje-noleido, .mensaje-noleido a{
+	font-weight: 600;
+	text-decoration: none;
+}
+		
+	.mensaje-noleido a i{
+		color: #ffffff;
+		font-weight: 600;
+	}
+
+
+
+.mensaje-leido, .mensaje-leido a{
+	color: #848484;
+	text-decoration: none;
+}
+	.mensaje-leido a i{
+		color: #ffffff;
+	}
+
+.mensaje-noleido:hover, 
+	.mensaje-leido:hover{
+		background-color: #FFFFCC;
+		
+}
+
+.mensaje-noleido a:hover, 
+	.mensaje-leido a:hover{
+		color: #0066FF;
+}
+
+
+.cuadro-mensaje{
+	padding: 10px;
+	/*background-color:#E6E6E2;*/
+
+	border-top: 1px solid #336699;
+  	border-bottom: 1px double #336699;
+
+  	margin-right: 0px;
+  	margin-left: 0px;
+  	
+  	margin-bottom: 10px;
+}
+
+.cuadro-comentario{
+	padding: 10px;
+	
+
+	border-top: 1px solid #336699;
+  	border-bottom: 1px double #336699;
+
+	
+  	margin-bottom: 20px;
+}
+
+.cuadro-mensajeprevio{
+	padding: 10px;
+	/*background-color: red;*/
+	color: #787878;
+
+	
+  	/*margin-right: 0px;*/
+  	margin-left: 5px;
+}
+
+.notificacion{
+	background: #fefefe;
+	padding: 12px;
+    padding-left: 5px;
+    border-top: solid 3px #CCCCCC;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 10px 10px -5px rgba(0,0,0,.08);
+       -moz-box-shadow: 0 10px 10px -5px rgba(0,0,0,.08);
+            box-shadow: 0 10px 10px -5px rgba(0,0,0,.08);
+}
+
+.notificacion:hover{
+	background-color: #F0FFF0;
+
+	border-bottom: solid 3px #27A9E1;
+	/*color: #000000;
+	 border-color: #000000;*/
+}
+.fechanotificacion{
+	color: #337ab7;
+    font-weight: 200;
+
+}
+.notificacion-novisto{
+    color: #337ab7;
+    font-weight: bold;
+    font-size: small;
+}
+
+.notificacion-info-novisto {
+    border-color: #27A9E1;
+}
+
+
+
+.notificacion-visto{
+    color: #848484;
+    font-size: small;
+}
+.notificacion-info-visto {
+    border-color: #CCCCCC;
+}
+
+
+.foto-vercontacto img{
+ 	float: none;
+	
+	 margin: 0 auto;
+	-moz-margin: 0 auto;
+	
+	-webkit-border-radius: 50% !important;
+	-moz-border-radius: 50% !important;
+	border-radius: 50% !important;
+	
+	
+	/*border: solid 2px red !important;*/
+}
+
+.panel-informacion-contacto{
+	border: solid 1px green;
+	padding-left: -5px;
+	border-radius: 15px;
+	/*margin-left: 10px;*/
+}
+
+.linea-separadora{
+	
+	border-bottom: 1px solid #E8E8E8;
+	margin-bottom: 0px;
+}
+
+/* =======================================================================================
+ *FIN CSS MENSAJES Y NOTIFICACIONES
+ * =======================================================================================*/
+
+
+/* =======================================================================================
+ *INICIO CSS ANUNCIOS
+ * =======================================================================================*/
+
+
+
+
+.accion-anunciante{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+
+
+
+.acciongeneral-anunciante>span{
+	font-size: 0.9em;
+	font-weight: 300;
+	color: #000000;
+}
+/*.anuncio-opcionvalor{
+	font-size: .8em;
+	background-color: orange;
+}*/
+
+.breadcrumb{
+	margin-bottom: 2px;
+}
+.contenedor-paginacion{
+	margin-top: -13px;
+	margin-bottom: -10px;
+}
+
+
+
+.botones-misanuncios{
+	margin-bottom: 5px;
+}
+.btn-publicacion{
+	background-color: orange;
+	color: #ffffff;
+}
+	.btn-publicacion:hover{
+		background-color: #FFCC00;
+		color: #ffffff;
+		font-weight: bold;
+	}
+.btn-desactivar{
+	background-color: red;
+	color: #ffffff;
+}
+.btn-oculto{
+	visibility:  hidden;
+	display: block;
+}
+
+
+
+.cuadroproducto {
+	padding:10px;
+	border-left: 2px solid #27A9E1;
+	border-bottom: 1px solid #27A9E1;
+	
+
+	background-color: #F0F8EE;
+	margin-bottom:15px;
+	-webkit-box-shadow: 0 8px 6px -6px  #999;
+	   -moz-box-shadow: 0 8px 6px -6px  #999;
+	        box-shadow: 0 8px 6px -6px #4aa;
+
+	        -webkit-transition: all 0.7s;
+		    -moz-transition: all 0.7s;
+		    -o-transition: all 0.7s;
+		    transition: all 0.7s;
+}
+	
+	.cuadroproducto:hover {
+		 background-color: #E0FFFF;
+
+		 -webkit-transition: all 0.7s;
+		    -moz-transition: all 0.7s;
+		    -o-transition: all 0.7s;
+		    transition: all 0.7s;
+
+	
+	}
+
+/*color de fondo cuando el producto es nuevo (verde brillante)*/
+.estado-producto-nuevo{
+	background-color: #73AD21;
+	color: #000000;
+}
+/*color de fondo cuando el producto es usado (azul oscuro)*/
+.estado-producto-usado{
+	background-color: #4682B4;
+	color: #000000;
+}
+
+.fechas-anuncio{
+	font-size: 0.9em;
+	color: #696969;
+}
+
+.fechas-anuncio span{
+	font-weight: 600;
+}
+
+.label-bloqueado{
+	/*color -gris-*/
+	background-color: #D3D3D3;
+}
+
+.label-revision{
+	background-color: #D2691E;
+}
+.label-denunciado{
+	/*color -rojo-*/
+	background-color: #FF0000;
+}
+
+
+
+
+
+.label-rechazado{
+	/*color -tomato-*/
+	background-color: #FF6347;
+}
+
+.opcionvalor-anuncios{
+ 	color: #0B3861;
+ 	margin-left: 15px;
+ 	font-size: .8em;
+ }
+.parrafo-mensaje{
+	text-align: justify;
+}
+.precio{
+    background-color: rgba(39,169,225,0.58);
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #000000;
+    padding: 10px 15px;
+    margin-top: 5px;
+    width: 180px;
+}
+.precio-anuncios{
+    background-color: rgba(39,169,225,0.3);
+    display: inline-block;
+    margin-bottom: 5px;
+    
+    padding: 5px 5px;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 1.2em;
+}
+ 
+
+.precio-anuncios span{
+ 	color: #009900;
+}
+
+.titulo-anuncio{
+	font-weight: 500;
+	font-size: 1.4em;
+	/*text-align: justify;*/
+	color: #0E5F8C;
+}
+
+.producttitle {
+    font-weight:bold;
+	
+}
+
+.titulo-anuncios{
+	color: #3B5998;
+	font-weight: 600;
+	margin-left: -15px;
+}
+
+
+
+
+
+/* =======================================================================================
+ *FIN CSS ANUNCIOS
+ * =======================================================================================*/
+
+
+
+/* =======================================================================================
+ *INICIO ANUNCIO INDIVIDUAL
+ * =======================================================================================*/
+
+
+.breadcrumb>li>a{
+	/*background: red;*/
+	color:#27A9E1;
+}
+
+.btn-borrar-comentario{
+	background-color: #C9302C;
+	color: #ffffff;
+	font-size: 0.8em;
+}
+.btn-borrar-comentario:hover{
+	background-color: #FF6347;
+	color: #ffffff;
+	
+}
+
+.btncompartir-social{
+	font-size: 35px;
+		-webkit-transition: all 0.7s;
+	    -moz-transition: all 0.7s;
+	    -o-transition: all 0.7s;
+	    transition: all 0.7s;
+	
+}
+	.btncompartir-social:hover{
+		color: #5CB85C;
+		font-size: 40px;
+			-webkit-transition: all 0.7s;
+		    -moz-transition: all 0.7s;
+		    -o-transition: all 0.7s;
+		    transition: all 0.7s;
+	}
+
+.btncompartir-facebook{
+	color: #3B5998;
+
+}
+.btncompartir-twitter{
+	color: #00aced;
+	
+}
+.btncompartir-google{
+	color: #dd4b39;
+	
+}
+
+.btn-denunciado{
+	font-size: 0.8em;
+}
+
+.btn-denunciar-comentario{
+	background-color: #658084;
+	color: #ffffff;
+	font-size: 0.8em;
+}
+
+.btn-denunciar-comentario:hover{
+	background-color: #778899;
+	color: #ffffff;
+	
+}
+
+.btn-min{
+	height: 18px;
+
+}
+
+.btn-separado{
+	margin-bottom: 9px !important;
+}
+
+
+
+
+.centrar-botones-compartir{
+	text-align: center;
+}
+
+/*color del borde opcion valor*/
+.cuadro-default {	
+	border-color: #999999; 
+}
+
+/*color de opcion valor*/
+/*.cuadro-default .opcionvalor{
+	border-color: transparent red transparent transparent;
+}*/
+
+/*.cuadro-default .opcionvalor{
+	border-color: transparent red transparent transparent;
+}*/
+
+
+
+
+
+.cuadro-default .producto-nuevo{
+	border-color: transparent #73AD21 transparent transparent;
+}
+
+.cuadro-default .producto-usado{
+	border-color: transparent #4682B4 transparent transparent;
+}
+/*precio fondo, borde*/
+.cuadro-precio{
+	background:#F0FFFF; 
+	border:1px solid #ddd; 
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+	margin: 1px 0; 
+	overflow:hidden;
+}
+
+/*css del precio y estado*/
+/*dar ubicación al precio*/
+.cuadro-precio-contenido{
+	font-size: 1.2em;
+	padding:0 20px 0px;
+}
+	/*css para el precio*/
+	.cuadro-precio-contenido>span{
+		font-size: 1.3em !important;
+		
+	}
+
+.detalleanuncio{
+	/*background-color: #F5F5F5;*/
+
+	margin-bottom: 10px;
+	border-radius: 5px;
+
+	background: #b3dced;
+	background: -moz-linear-gradient(left, #b3dced 0%, #bce0ee 2%, #83cfe6 8%, #e3f4fa 62%, #e3f4fa 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #b3dced), color-stop(2%, #bce0ee), color-stop(8%, #83cfe6), color-stop(62%, #e3f4fa), color-stop(100%, #e3f4fa));
+	background: -webkit-linear-gradient(left, #b3dced 0%, #bce0ee 2%, #83cfe6 8%, #e3f4fa 62%, #e3f4fa 100%);
+	background: -o-linear-gradient(left, #b3dced 0%, #bce0ee 2%, #83cfe6 8%, #e3f4fa 62%, #e3f4fa 100%);
+	background: -ms-linear-gradient(left, #b3dced 0%, #bce0ee 2%, #83cfe6 8%, #e3f4fa 62%, #e3f4fa 100%);
+	background: linear-gradient(to right, #b3dced 0%, #bce0ee 2%, #83cfe6 8%, #e3f4fa 62%, #e3f4fa 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#e3f4fa', GradientType=1 );
+}
+
+
+
+.enlace-share, .enlace-share:focus{
+	text-decoration: none;
+}
+
+.enlace-share:hover{
+	text-decoration: none;
+
+}
+
+/*css para los botones adelante y atras del carrusel de fotos*/
+.flex-direction-nav a{
+	height: 50px !important;
+}
+
+/*margen de 1px gris para el carrusel de fotos*/
+.margen-ver-fotos{
+	border: 1px solid #C0C0C0;
+	margin-bottom: 34px;
+}
+
+/*.opcionvalor{    
+	border-style: solid; 
+	border-width: 0 90px 52px 0; 
+	float:right; 
+	height: 0px; 
+	width: 0px;
+
+	
+}*/
+
+.producto-nuevo,
+	.producto-usado{    
+		border-style: solid; 
+		border-width: 0 90px 52px 0; 
+		float:right; 
+		height: 0px; 
+		width: 0px;
+}
+
+
+/*ubicar opcion valor en la parte superior derecha del precio, moviendo la fuente y rotando*/
+.opcionvalor-text{
+	color:#000000; 
+	font-size:14px; 
+	font-weight:bold; 
+	position:relative; 
+	right:-30px; 
+	top:-3px; 
+	white-space: nowrap;
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	transform:rotate(30deg);
+}
+
+
+
+
+
+
+ /* =======================================================================================
+ *FIN ANUNCIO INDIVIDUAL
+ * =======================================================================================*/
+
+
+/* =======================================================================================
+ *INICIO CSS COMENTARIOS
+ * =======================================================================================*/
+#comentar{
+	margin-top: 25px;
+}
+
+#enviarcomentario{
+	margin-top: 2px;
+	float: right;
+}
+
+#img-cargando{
+	text-align: center;
+	display: none;
+}
+	#img-cargando img{
+		float:none;
+	    display: inline-block;  
+	}
+
+
+.cajaresponder{
+	display: none;
+}
+
+.caja-respuestas{
+	margin-top: 5px;
+}
+
+.cajita-respuesta{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.chat, .respuestas{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #27A9E1;
+}
+
+.chat li.left .chat-body{
+    margin-left: 50px;
+}
+
+.chat li.right .chat-body{
+    margin-right: 60px;
+}
+
+/*color de la fuente de comentarios*/
+.chat li .chat-body p{
+    margin: 0;
+    /*color: #111111;*/
+    font-size: 1em;
+}
+
+.comentarios{
+	border: 2px solid blue;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.fuente-nombrecomentario{
+	font-size: 0.9em;
+}
+.img-comentario{
+	height: 40px;
+	width: 40px;
+}
+.img-respuesta{
+	height: 30px;
+	width: 30px;
+}
+
+.ocultisimo, 
+	.panel-respondermensaje,
+		.panel-respondermensajecontactanos{
+		display: none;	
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 15px;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.respuestas li{
+	margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.respuestas li.left .chat-respuesta{
+	margin-left: 40px;	
+	
+}
+.respuestas li .chat-respuesta p{
+	margin: 0;
+    color: #444444;
+}
+/* =======================================================================================
+ *FIN CSS COMENTARIOS
+ * =======================================================================================*/
+
+/* =======================================================================================
+ *INICIO CSS CREAR Y EDITAR ANUNCIO
+ * =======================================================================================*/
+#categoria{
+	font-size: 1.1em !important;
+}
+#subcategoria{
+	font-size: 1.1em !important;
+}
+
+
+/*inicio mensaje de categoria y seccion elegida*/
+.alert-message
+{
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 3px solid #eee;
+}
+
+.alert-message-info
+{
+    background-color: #f4f8fa;
+    border-color: #5bc0de;
+}
+.alert-message-info h4
+{
+    color: #27A9E1;
+}
+/*css botones de la botonera de crear anuncio*/
+.btnseccion{
+		background:#ffffff ;
+		color:#1e90ff;
+		border: 1px #1e90ff solid;
+		margin-bottom: 2px;
+		font-size: 1.1em;	
+}
+
+.cabeza{
+	/*border: 1px solid red;*/
+	margin-top: 0;
+}
+
+.contenedor-crear-anuncio{
+	margin-top: 8px;
+}
+
+.fotos-edicion{
+	width: 80px;
+	height: 80px;
+	margin-left: 40px;
+	font-size: 70px;
+	border: 3px solid #DCDCDC;
+}
+	.fotos-edicion span{
+		margin-left: 2px;
+		color: #DCDCDC;
+	}
+
+.fotoedicion{
+	width: 90% !important;
+}
+
+/*css información adicional al pie de inputs en crear anuncio*/
+.informacion-adicional{
+	color:#337AB7!important;
+	font-size: 0.9em !important;
+}
+
+/*css de la parte derecha de crear anuncio*/
+.subcuerpo-derecha{
+	padding-left: 120px;
+}
+
+
+/* =======================================================================================
+ *FIN CSS CREAR Y EDITAR ANUNCIO
+ * =======================================================================================*/
+
+
+/* =======================================================================================
+ *INICIO PERFIL Y CUENTA DE USUARIO
+ * =======================================================================================*/
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  /*width: 50%;
+  height: 50%;*/
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-genero {
+  /*text-transform: uppercase;*/
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+/*linea inferior de separación de li en el menú de perfil*/
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+/*fuente de enlaces del menu de perfil*/
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+/*separacion de enlaces y de su respectivo icono*/
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+/*hover de los enlaces dentro del menu de perfil*/
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color:#94d117;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5CB85C;
+  background-color: #F8F8FF;
+  border-left: 3px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+  border: solid 1px blue;
+}
+
+.subtitulo-profile{
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+#contenido-perfil{
+	margin-right: -15px !important;
+	margin-left: -15px;
+}
+
+#contenido-perfil .tab{
+	display: none;
+}
+
+.linea-inferior{
+	margin-bottom: 25px;
+}
+
+.mayusculas{
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+.btn-new-foto-perfil{
+	margin-top: 30px;
+}
+
+.btn-espacio-superior{
+	margin-top: 10px;
+}
+
+.btn-salir{
+	margin-top: 15px;
+}
+.caja-sombra{
+	border: 2px solid #FFF8DC	;
+	 box-shadow: 1px 2px 5px #51AF33;
+	border-radius: 5px;
+}
+
+.enlace>h4:hover,  
+		.icono-presentacion:hover{
+			color: green;
+	}
+ /* =======================================================================================
+ *FIN PERFIL Y CUENTA DE USUARIO
+ * =======================================================================================*/
+
+
+/* ==================================================================================
+ *INICIO AYUDA
+ * ==================================================================================*/
+
+.contenido-ayuda {
+  margin-top: 30px;
+
+}
+.enlace-titulo-ayuda{
+	font-size: 1.1em;
+	color: #000000;	
+}
+	.enlace-titulo-ayuda:hover{
+		text-decoration:none;   
+		color: #000000;	
+	}
+
+	.enlace-subtitulo-ayuda:hover{
+		text-decoration:none;   
+		
+	}
+
+
+.menu-ayuda {
+  margin-top: 30px;
+}
+
+.mini-subtitulo-ayuda{
+	font-size: 1.1em;
+	font-weight: 600;
+	padding-top: 20px;
+	color: #337ab7;
+}
+
+
+.parrafo-ayuda{
+	font-size: 1.1em;
+}
+
+.titulo-contenido-ayuda{
+
+	color: #279CD1;
+	font-size: 1.3em;
+}
+
+
+ /* ==================================================================================
+ *FIN AYUDA
+ * ==================================================================================*/
+
+
+/*linea inferior de separación de li en el menú de ayuda*/
+.menu-ayuda ul li {
+  border-bottom: 1px solid #DCDCDC;
+}
+
+/*.menu-ayuda ul li:last-child {
+  border-bottom: none;
+}*/
+
+/*fuente de enlaces del menu de usuario*/
+.menu-ayuda ul li a {
+  color: #000000;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+/*separacion de enlaces y de su respectivo icono*/
+.menu-ayuda ul li a i {
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+
+/*hover de los enlaces dentro del menu de perfil*/
+.menu-ayuda ul li a:hover {
+  background-color: #279CD1;
+  color:#94d117;
+}
+
+/*.menu-ayuda ul li.active {
+  border-bottom: none;
+}*/
+
+.menu-ayuda ul li.active a {
+  color: #ffffff;
+  background-color: #279CD1;
+  border-left: 4px solid #50AE33;
+  margin-left: -2px;
+}
+
+
+
+/**/
+
+
+/**********************************************************************/
+/****************** MEDIA QUERIES DE LA APP **************************/
+/********************************************************************/
+
+
+@media(min-width:1323px){
+	
+	div.row.menu-inferior {
+    	margin-top: 0px;
+    }	
+}
+
+@media(min-width:767px){
+
+	.contenedor-interno-ingresoregistro{
+		margin-top: 1px !important;
+
+		/*border: 1px solid blue;*/
+	}
+
+	.contenido-login{
+		margin-top: 100px !important;
+
+		/*border: solid 1px orange;*/
+	}
+	.contenido-nologin{
+		margin-top:96px !important;	
+
+		/*border: solid 1px blue;*/
+	}
+
+	.contenedor-interno{
+		margin-top: 1px !important;
+
+
+		/*border: 1px solid green;*/
+	}
+
+	h2, h3, h4{
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+
+	.foto-vercontacto img {
+	 	
+	 	width: 25%;
+	  	height: 25%;
+	  
+	}
+
+
+	.titulo-ingresoregistro{
+		font-size: 24px;
+	}
+
+	.profile-userpic img {
+	 	
+	 	width: 50%;
+	  	height: 50%;
+	  
+	}
+}
+
+@media(max-width:992px){
+	/*Parte derecha del layout en crear anuncio*/
+	.subcuerpo-derecha{
+		padding-left: 15px;
+		border-left: 0;
+	 }
+	
+	 
+}
+
+/*Extra small devices Phones (<=767px)*/
+@media (max-width: 767px) {
+
+	/*contenedor categorias y subcategorias*/
+	.blockquote-box{
+		border-right:5px solid #E6E6E6;
+		margin-bottom:25px;
+		
+	}
+
+	/*contenedor de icono de categorias*/
+	.blockquote-box .square{
+		width:80px;
+		height: 80px;
+		min-height:80px;
+		margin-right:20px;
+		text-align:center!important;
+		background-color:#E6E6E6;
+		padding:20px 0;
+		
+	}
+
+	/*Quitar padding y margen al conteneder de los botones superiores de ingreso y registro */
+	.botonera-superior{
+		padding:0 0; 
+		margin-top: 0;
+		margin-bottom: -7px;
+	}
+	/*migas de pan en ver anuncio*/
+	.breadcrumb>li{
+		font-size: 0.9em;
+	}
+	.btnseccion{
+		background:#ffffff ;
+		font-size: 1em;	
+		border-radius: 5px !important; 
+		margin-bottom: 3px;
+		
+		/*Colocar los botones uno debajo de otro*/
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	/*Css para centrar un objeto, se aplica al contenedor que contiene al objeto a centar*/
+	.centrar{
+    	text-align: center;
+	}
+	/*Css para centrar un objeto, se aplica al objeto a centrar*/
+	.centrar>p{
+		float:none;
+	    
+	    display: inline-block;  
+	}
+	.contenedor-interno-ingresoregistro{
+		margin-top: 5px !important;
+
+		/*border: 1px solid blue;*/
+	}
+
+
+	.contenido-login{
+		margin-top: 130px !important;
+
+		/*border: solid 1px orange;*/
+	}
+	.contenido-nologin{
+		margin-top: 155px !important;	
+
+		/*border: solid 1px blue;*/
+	}
+
+	.contenedor-interno{
+		margin-top: 5px !important;
+
+
+		/*border: 1px solid green;*/
+	}
+
+
+	.contenedor-logo{
+		text-align: center;
+		margin-bottom: -15px;
+	}
+
+	
+	.cuadro-precio-contenido{
+		font-size: 1em;
+		
+	}
+
+	.foto-vercontacto img {
+	 	
+	 	width: 15%;
+	  	height: 15%;
+	  
+	}
+
+	/*tamaño del icono de ver categorias y subcategorias*/
+	.glyphicon-lg{
+		font-size:2em;
+	}
+	
+	/*Permite dar apariencia de tabla de datos generales en perfil*/
+	.linea-inferior{
+		border-bottom: 1px solid #E8E8E8;
+		margin-bottom: 0px;
+	}
+	.subtitulo-ingresoregistro{
+		font-size: 1em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: -30px;
+	}
+
+	/*I don't remenber*/
+	.subcuerpo-derecha{
+		padding-left: 15px;
+		border-left: 0;
+	}
+	/*titulo de ver anuncio*/
+	.titulo-anuncio{
+		font-weight: 500;
+		font-size: 1em;
+		/*text-align: justify;*/
+		
+	}
+
+	.titulo-ingresoregistro{
+		font-size: 1.6em;
+	}
+
+	.titulo-presentacion{
+		margin-top: 38px;
+		/*font-family: 'Audiowide', cursive;*/
+		font-size: 2em;
+		color: #27A9E1;
+	}
+
+	.contenedor-registro-social{
+		margin-top: 50px;
+	}
+	h3, h4, h2{
+		font-size: 0.9em !important;
+		font-weight: bold;
+	}
+}
+
+/*media queries para crear anuncio*/
+@media (max-width: 600px) {
+	
+	.accion-anunciante{
+		font-size: 1em;
+		font-weight: 600;
+	}
+
+	.accion-anunciante span{
+		font-size: 0.9em;
+		font-weight: 200;
+	}
+
+	.acciongeneral-anunciante span{
+		font-size: 0.9em;
+		font-weight: 200;
+	}
+
+	/*crear anuncio, cambiar el modo de los botones para elegir seccion*/
+	.botonerasecciones{
+		width: 100%;
+	}
+	.breadcrumb>li{
+		font-size: 0.8em;
+	}
+	
+	.contenedor-interno-ingresoregistro{
+		margin-top: 5px !important;
+
+		/*border: 1px solid blue;*/
+	}
+
+	.contenido-login{
+		margin-top: 130px !important;
+
+		/*border: solid 1px orange;*/
+	}
+	.contenido-nologin{
+		margin-top:155px !important;	
+
+		/*border: solid 1px blue;*/
+	}
+
+	.contenedor-interno{
+		margin-top: 1px !important;
+
+
+		/*border: 1px solid green;*/
+	}
+
+	.foto-vercontacto img {
+	 	
+	 	width: 20%;
+	  	height: 20%;
+	  
+	}
+
+	.ocultar-menor-a600{
+		display: none;
+	}
+
+	.titulo-ingresoregistro{
+		font-size: 1.3em;
+	}
+	.subtitulo-ingresoregistro{
+		font-size: 0.9em;
+		margin-top: -30px;
+	}
+	label{
+		
+		font-size: 0.9em;
+	}
+	.subtitulo-normal{
+		font-size: 0.9em;
+	}
+
+	.subtitulo-aviso{
+		font-size: 1em;
+		padding-top: 3px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.titulo-presentacion{
+		margin-top: 10px;
+	}
+	/*Tamaño de fuente de los mensajes .alert*/
+	.alert-size{
+		font-size: 0.9em;
+	}
+
+
+}
+
+
+@media (max-width: 400px) {
+
+
+	.flotar-izquierda{
+		display: inline-block;
+		float: none;
+		width: 100%;
+	}
+
+	.profile-userpic img {
+	 	
+	 	margin-top: -30px; 
+	}
+
+	#mensaje-presentacion{
+		margin-top: -5px;
+	}
+
+	h2{
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+	h3, h4{
+		font-size: 1.1em !important;
+		font-weight: bold;
+	}
+	
+	/*contenedor categorias y subcategorias*/
+	.blockquote-box{
+		border-right:5px solid #E6E6E6;
+	}
+
+	/*contenedor de icono de categorias*/
+	.blockquote-box .square{
+		width:40px;
+		height: 30px;
+		min-height:40px;
+		margin-right:5px;
+		/*text-align:center!important;*/
+		background-color:#E6E6E6;
+		padding-top: 8px;
+		/*padding:20px 0;*/
+		/*border: 1px solid red;*/
+	}
+
+	.btn-manifiesto{
+		margin-bottom: -30px;
+	}
+
+	
+	.contenedor-interno-ingresoregistro{
+		margin-top: 5px !important;
+
+		/*border: 1px solid blue;*/
+	}
+
+	.contenido-login{
+		margin-top: 130px !important;
+
+		/*border: solid 1px orange;*/
+	}
+	.contenido-nologin{
+		margin-top:155px !important;	
+
+		/*border: solid 1px blue;*/
+	}
+
+	.contenedor-interno{
+		margin-top: 1px !important;
+
+
+		/*border: 1px solid green;*/
+	}
+
+	/*ocultar subcategorias en dispositivos de <400*/
+	.enlace-categoria a{
+		font-size: .8em;
+	}
+	.enlacessubcategorias{
+		display: none;
+	}
+	
+	.foto-vercontacto img {
+	 	
+	 	width: 30%;
+	  	height: 30%;
+	  
+	}
+
+	.form-control{
+		font-size: 0.9em;
+	}
+
+	.ocultar-textoa400{
+		display: none;
+	}
+	.ocultar-menor-a400{
+		display: none;
+	}
+	.subtitulo-presentacion{
+		font-size: 1em;
+		/*margin-top: -30px;*/
+	}
+
+	/*tamaño del icono*/
+	.glyphicon-lg{
+		font-size:1.3em;
+
+	}
+	
+	
+	.square span{
+		margin-top: 0;
+		margin: auto 0;
+	}
+
+	.texto-informativo{
+		font-size: 1em;
+	}
+	.texto-presentacion{
+		font-size: 1em;
+		/*margin-top: -40px;*/
+	}
+	.enlace{
+		font-size: 1em;
+
+	}
+	#rc-imageselect, 
+		.g-recaptcha {
+			transform:scale(0.77);
+			-webkit-transform:scale(0.77);
+			transform-origin:0 0;
+			-webkit-transform-origin:0 0;
+	}
+
+}
+
+@media (max-width: 360px) {
+
+	.anuncios-fecha{
+		display: inline-block;
+		float: none;
+		width: 100%;
+	}
+	.breadcrumb>li{
+		font-size: 0.8em;
+	}
+
+	.caja-derecha-misanuncios{
+		display: inline-block;
+		float: none;
+		width: 100%;
+	}
+	.fotoedicion{
+		width: 100% !important;
+	}
+	.lbl-correo-aviso{
+		font-size: 0.8em;
+
+	}
+	
+	.contenedor-aviso{
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+	
+	.contenedor-interno-ingresoregistro{
+		margin-top: 5px !important;
+
+		/*border: 1px solid blue;*/
+	}
+
+	.contenido-login{
+		margin-top: 130px !important;
+
+		/*border: solid 1px orange;*/
+	}
+	.contenido-nologin{
+		margin-top: 155px !important;	
+
+		/*border: solid 1px blue;*/
+	}
+
+	.contenedor-interno{
+		margin-top: 5px !important;
+
+
+		/*border: 1px solid green;*/
+	}
+
+	.cuadro-precio-contenido{
+		font-size: 0.9em;
+		
+	}
+
+	.foto-vercontacto img {
+	 	
+	 	width: 40%;
+	  	height: 40%;
+	  
+	}
+
+	.ocultar-texto{
+		display: none;
+	}
+
+	.opcionvalor-text{
+		font-size: 0.9em;
+	}
+
+	.texto-logo{
+		display: none;
+	}
+
+	.anuncio-opcionvalor{
+		font-size: 1em;
+	}
+
+}
+
+@media (max-width: 300px) {
+	.contenedor-interno-ingresoregistro{
+		margin-top: 45px !important;
+
+		/*border: 1px solid blue;*/
+	}
+	
+
+	.contenido-login{
+		margin-top: 85px !important;
+	}
+
+	.contenido-nologin{
+		margin-top: 150px !important;	
+	}
+
+	.ocultar-menor-a300{
+		display: none;
+	}
+	#rc-imageselect, 
+		.g-recaptcha {
+			transform:scale(0.70);
+			-webkit-transform:scale(0.70);
+			transform-origin:0 0;
+			-webkit-transform-origin:0 0;
+	}
+	.foto-vercontacto img {
+	 	
+	 	width: 30%;
+	  	height: 0%;
+	  
+	}
+	#mensaje-presentacion{
+		font-size: 1em;
+		margin-top: 30px !important;
+	}
+
+}
+
+@media (max-width: 260px) {
+	/*Ajustar botones sociales*/
+
+	.ocultar-menor-a260{
+		display: none;
+	}
+	.ancho-btn-social{
+	    width:100%;
+	    margin-bottom: 3px;
+	    color: #ffffff;
+	    font-size: 0.8em;
+	}
+	.breadcrumb>li{
+		font-size: 0.8em;
+	}
+	.contenedor-interno-ingresoregistro{
+		margin-top: 5px !important;
+	}
+	.contenedor-interno{
+		margin-top: 5px !important;
+	}
+
+	.contenido-login{
+		margin-top: 120px !important;
+
+		/*border: solid 1px orange;*/
+	}
+
+	.contenido-nologin{
+		margin-top: 145px !important;	
+	}
+
+	.contenedor-logo{
+		
+		margin-bottom: 0px;
+	}
+	.logo{
+		width: 35px;
+		height: 40px;
+		margin-bottom: -15px;
+	}
+	.lbl-detalle-correo{
+		font-size: 0.8em;
+
+	}
+	.titulo-anuncio{
+		font-size: 0.9em;
+	}
+	#rc-imageselect, 
+		.g-recaptcha {
+			transform:scale(0.60);
+			-webkit-transform:scale(0.60);
+			transform-origin:0 0;
+			-webkit-transform-origin:0 0;
+	}
+
+	#mensaje-presentacion{
+		font-size: 1em;
+		margin-top: -8px !important;
+	}
+	
+}
+
+@media (max-width:200px) {
+	
+	.contenido-login{
+		margin-top: 120px!important;
+
+		/*border:  solid 1px orange;*/
+	}
+
+	.contenido-nologin{
+		margin-top: 145px !important;	
+
+		/*border:  solid 1px red;*/
+	}
+}

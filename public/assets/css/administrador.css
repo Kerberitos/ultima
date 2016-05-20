@@ -1,0 +1,446 @@
+.caja-admin{
+	padding: 20px 10px 10px 10px;
+	
+	border-left: 2px solid #27A9E1;
+	border-bottom: 1px solid #27A9E1;
+		background-color: #F0F8EE;
+
+  	margin-bottom:15px;
+	-webkit-box-shadow: 0 8px 6px -6px  #999;
+	   -moz-box-shadow: 0 8px 6px -6px  #999;
+	        box-shadow: 0 8px 6px -6px #4aa;
+
+	        -webkit-transition: all 0.7s;
+		    -moz-transition: all 0.7s;
+		    -o-transition: all 0.7s;
+		    transition: all 0.7s;
+  	
+  	text-align: center;
+}
+
+.caja-admin:hover{
+	 background-color: #E0FFFF;
+
+		 -webkit-transition: all 0.4s;
+		    -moz-transition: all 0.4s;
+		    -o-transition: all 0.4s;
+		    transition: all 0.4s;
+}
+
+.btn-recargar{
+	margin-top: -55px;
+	margin-bottom: 3px;
+}
+
+.foto-admin img{
+ 	float: none;
+	  margin: 0 auto;
+	  /*width: 50%;
+	  height: 50%;*/
+	  -webkit-border-radius: 50% !important;
+	  -moz-border-radius: 50% !important;
+	  border-radius: 50% !important;
+}
+
+.foto-veradministrador img{
+ 	float: none;
+	
+	 margin: 0 auto;
+	-moz-margin: 0 auto;
+	
+	-webkit-border-radius: 50% !important;
+	-moz-border-radius: 50% !important;
+	border-radius: 50% !important;
+	
+	
+}
+
+
+.nombre-admin {
+  color: #5a7391;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.genero-admin{
+	color: #27A9E1;
+	
+	font-size: 1em;
+
+}
+
+.rol-admin{
+	color: #94d117;
+	font-size: 0.8em;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.rol-admin-super{
+	color: #27A9E1;
+	font-size: 0.8em;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+}
+/**/
+/*Efectos a  las tablas de Usuarios bloqueados*/
+
+.fila-tabla-miradita, 
+	.fila-tabla-miradita a{
+	
+	text-decoration: none;
+	color: #000000;
+	
+}
+
+.fila-tabla-miradita{
+	border-bottom: solid 1px #27A9E1;
+}
+
+		
+	.fila-tabla-miradita a i{
+		color: #ffffff;
+		
+	}
+
+.fila-tabla-miradita a:hover, 
+	.fila-tabla-miradita a span:hover{
+		color: #0066FF;
+}
+
+
+.fila-tabla-miradita:hover{
+	background-color: #FFFFCC;
+}
+
+
+.btn-promover-administrador{
+	background-color: #D2691E;
+	color: #ffffff;
+}
+
+/**/
+/**/
+#btn-bloquear-anuncio{
+	/*margin-top: 20px;*/
+	margin-bottom: 10px;
+}
+
+.botonera-revision{
+	margin-top: 30px;
+}
+
+.btn-admin-revision{
+	background-color: #D2691E;
+}
+
+.btn-admin-comentario-denunciado{
+	background-color: #FA8072;
+}
+.contenedor-botonbloqueo{
+	margin-top: 20px;
+}
+
+div.row.menu-inferior-admin{
+	/*margin-top: -5px;*/
+	background-color: #333333;
+	
+}
+
+.main-menu-admin{
+	background-color: #333333;
+	font-size: 0.9em;
+	
+}
+
+.btn-admin-denunciado{
+	background-color: #CC3333;
+}
+
+.contenido-nav-avanzado{
+	/* Color de fondo -blanco- */
+	background-color:#ffffff;
+	margin-top:160px;
+	/*Tamanho minimo del contenedor*/
+	min-height: 600px;
+}
+
+.general-uno{
+	background-color: yellow;
+}
+	.general-anuncios .btn, 
+		.general-usuarios .btn{
+			margin-bottom: 20px;
+			min-height: 100px;
+			color: #ffffff;
+	}
+
+	.general-anuncios .btn span, 
+		.general-usuarios .btn span{
+			display: block;
+	}		
+
+
+.raya{
+	height: 460px !important;
+}
+
+.panel-informacion-admin{
+	border: solid 1px green;
+	padding-left: -5px;
+	border-radius: 15px;
+	/*margin-left: 10px;*/
+}
+.panel-informacion-admin .informacion-adicional{
+	
+	
+	margin-left: 5px;
+	margin-bottom: 0px;
+	/*margin: 0 10px 10px !important;*/
+
+}
+
+.subtitulos-caja{
+	margin-top: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+.menu-admin li{
+	border-bottom: 1px solid #f0f4f7;
+}
+.menu-admin li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+#contenedor-admin{
+	/*background-color: #F8F8FF;*/
+	margin-left: -15px;
+}
+
+.contenedortotal-admin{
+		margin-top: 10px;
+	
+	margin-bottom: 50px;
+}
+.fa-fw {
+	width: 2em;
+}
+.seleccionado{
+  	background-color: #F8F8FF;
+  	border-left: 3px solid #5b9bd1;
+  	margin-left: -2px;
+}
+.seleccionado>a{
+	color: #5CB85C;
+	font-weight: 500;
+}
+.btn-ad>a{
+	color: #93a3b5;
+	font-weight: 400;
+
+}
+.btn-ad>a:hover{
+	 background-color: #fafcfd;
+  	color:#94d117;
+}
+
+.panel-title{
+	font-size: 1em;
+}
+
+tr{
+	font-size: 1em;
+}
+
+.size-font-admin{
+	font-size: 0.9em;
+}
+
+.mostrar-ocultar{
+	display: block!important;
+}
+.contenido-nav-avanzado{
+		margin-top: 140px!important;
+		
+	}
+
+@media(min-width:767px){
+	.foto-admin img {
+	 	
+	 	width: 50%;
+	  	height: 50%;
+	  
+	}
+	.foto-veradministrador img {
+	 	
+	 	width: 25%;
+	  	height: 25%;
+	  
+	}
+	.contenido-nav-avanzado{
+		margin-top: 150px!important;
+		
+	}
+
+}
+
+/*Extra small devices Phones (<=767px)*/
+@media (max-width: 767px) {
+	div.row.menu-inferior{
+		margin-top: -10px;
+	}
+	
+	.contenedortotal-admin{
+		margin-top: 50px;
+	}
+
+	.contenido-nav-avanzado{
+		margin-top: 180px!important;
+		
+	}
+	
+
+	.texto-informativo{
+		font-size: 1em;
+	}
+
+	.alertas-formingreso{
+		margin-bottom: -110px;
+	}
+
+	.centrar-div{
+		margin-top: -20px;
+	}
+	.espacio-superior-mediano{
+		margin-top: 145px;
+	}
+
+	
+
+	/*Titulo del panel de administrador*/
+	.panel-title{
+		font-size: 0.9em;
+	}
+	.mostrar-ocultar{
+		display: block!important;
+	}
+
+	.foto-admin img {
+	 	
+	 	width: 25%;
+	  	height: 25%;
+	  
+	}
+	.foto-veradministrador img {
+	 	
+	 	width: 15%;
+	  	height: 15%;
+	  
+	}
+
+}
+
+
+@media (max-width: 600px) {
+
+	.contenido-nav-avanzado{
+		margin-top: 185px!important;
+		
+	}
+
+	tr{
+		font-size: 0.8em;
+	}
+	.mostrar-ocultar{
+		display: none!important;
+	}
+	.subtitulos-caja{
+		font-size: 0.8em;
+		
+	}
+	.foto-veradministrador img {
+	 	
+	 	width: 20%;
+	  	height: 20%;
+	  
+	}
+	
+}
+
+@media (max-width: 400px) {
+
+	.contenido-nav-avanzado{
+		margin-top: 185px!important;
+		
+	}
+
+	.foto-veradministrador img {
+	 	
+	 	width: 30%;
+	  	height: 30%;
+	  
+	}
+
+}
+
+@media (max-width: 300px) {
+	.general-anuncios .btn, 
+		.general-usuarios .btn{
+			font-size: 1em;
+	}
+	.panel-title{
+		font-size: 0.8em;
+	}
+	.ocultar{
+		display: block!important;
+	}
+	.size-font-admin{
+		font-size: 0.8em;
+	}
+	.mostrar-ocultar{
+		display: block !important;
+	}
+	.contenido-nav-avanzado{
+		margin-top: 165px!important;
+		
+	}
+	.foto-admin img {
+	 	
+	 	width: 50%;
+	  	height: 50%;
+	  
+	}
+	.foto-veradministrador img {
+	 	
+	 	width: 40%;
+	  	height: 40%;
+	  
+	}
+
+}
+
+@media (max-width: 235px) {
+	.contenido-nav-avanzado{
+		margin-top: 165px!important;
+		
+	}
+	.foto-veradministrador img {
+	 	
+	 	width: 60%;
+	  	height: 60%;
+	  
+	}
+}
+@media (max-width: 200px) {
+	.contenido-nav-avanzado{
+		margin-top: 165px!important;
+		
+	}
+}
